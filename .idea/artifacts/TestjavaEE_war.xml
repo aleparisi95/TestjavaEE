@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TestjavaEE:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TestjavaEE</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TestjavaEE-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TestjavaEE:war exploded" />
+    </root>
+  </artifact>
+</component>
